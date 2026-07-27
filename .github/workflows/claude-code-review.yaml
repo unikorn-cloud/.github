@@ -43,6 +43,11 @@ jobs:
             Explain whether the pull request summary makes sense, and whether the change in the
             pull request does what the summary says.
 
+            Check that each commit has a sensible message:
+            - The subject (first line) should not have a "conventional commit" prefix
+            - The subject should be limited to 50 characters, and be in imperative mood
+            - The commit message body should be wrapped at 72 characters
+
             Give a concise, dispassionate summary of your evaluation, and the recommended next step.
             Summarise the main pros and cons and support them with evidence.
 
